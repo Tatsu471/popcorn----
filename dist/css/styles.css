@@ -161,11 +161,28 @@ button {
   background-color: #eb6100;
   border: 1px solid #eb6100;
   border-radius: 0.375rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.c-button__inner:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #fff;
+  color: #eb6100;
+  opacity: 1;
 }
 
 .c-button__inner--reversal {
   color: #eb6100;
   background-color: #fff;
+}
+
+.c-button__inner--reversal:hover {
+  background-color: #eb6100;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .c-card__thumb img {
@@ -445,9 +462,10 @@ button {
   padding: 25rem 0;
   background: url(../images/dummy.jpg);
   background-size: cover;
-  -webkit-filter: brightness(0.8);
-  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.8" /><feFuncG type="linear" slope="0.8" /><feFuncB type="linear" slope="0.8" /></feComponentTransfer></filter></svg>#filter');
-  filter: brightness(0.8);
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(0.7);
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.7" /><feFuncG type="linear" slope="0.7" /><feFuncB type="linear" slope="0.7" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.7);
 }
 
 .p-mv__content {

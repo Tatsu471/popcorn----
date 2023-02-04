@@ -4,8 +4,9 @@
     padding: rem(400) 0;
     background: url(../images/dummy.jpg);
     background-size: cover;
-    -webkit-filter: brightness(0.8);
-    filter: brightness(0.8);
+    background-repeat: no-repeat;
+    -webkit-filter: brightness(0.7);
+    filter: brightness(0.7);
 }
 
 .p-mv__content {

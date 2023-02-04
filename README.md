@@ -23,4 +23,3 @@
 - スマホファースト
 - rem記述を前提# gulp-dev_static_flocss_SPtoPC
 # popcorn
-# popcorn----
