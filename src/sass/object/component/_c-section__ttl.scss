@@ -1,0 +1,20 @@
+@use "global" as *;
+
+.c-section__ttl-box {
+    max-width: 100%;
+    width: 100%;
+    //text-alignはこちらのclassがついているdivと同じclassに指定
+    //デフォルトはcenter
+    text-align: center;
+}
+.c-section__ttl {
+    color: $orange;
+    font-weight: 700;
+    font-size: rem(36);
+    line-height: calc(72 / 48);
+    text-transform: uppercase;
+    @include mq(md) {
+        font-size: rem(48);
+        // lhは同じ
+    }
+}

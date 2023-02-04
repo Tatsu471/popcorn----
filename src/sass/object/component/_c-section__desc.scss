@@ -1,0 +1,19 @@
+@use "global" as *;
+
+.c-section__desc {
+    font-size: rem(16);
+    color: rgba($color: $black, $alpha: 0.8);
+    line-height: calc(32 / 16);
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+    @include mq("md") {
+        font-size: rem(36);
+        line-height: calc(50 / 36);
+    }
+}
+//右寄りの場合
+.c-section__desc--right {
+    text-align: right;
+}

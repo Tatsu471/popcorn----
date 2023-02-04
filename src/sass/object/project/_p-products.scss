@@ -1,0 +1,53 @@
+@use "global" as *;
+
+.p-products {
+    background-color: $bg-color;
+    padding: 60px 0;
+    @include mq("md") {
+        padding: 120px 0;
+    }
+}
+
+.p-products__wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    @include mq("md") {
+        row-gap: rem(30);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.p-products__col {
+    display: contents;
+    @include mq("md") {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        row-gap: rem(30);
+    }
+}
+
+.p-products__ttl {
+    margin-bottom: rem(30);
+    @include mq("md") {
+        margin-bottom: 0;
+        text-align: left;
+    }
+}
+
+.p-products__button {
+    text-align: center;
+    grid-row: 3 / 4;
+    @include mq("md") {
+        text-align: left;
+    }
+}
+
+.p-products__cards {
+    margin-bottom: rem(50);
+    @include mq("md") {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,42 @@
+@use "global" as *;
+.p-top__blog__inner {
+    padding-top: rem(52);
+    padding-bottom: rem(52);
+    @include mq(md) {
+        padding-top: rem(120);
+        padding-bottom: rem(120);
+    }
+}
+.p-top__blog__title {
+    margin-bottom: rem(26);
+    @include mq(md) {
+        margin-bottom: rem(80);
+        text-align: right;
+    }
+}
+.p-top__blog__desc {
+    margin-bottom: rem(30);
+    @include mq(md) {
+        margin-bottom: rem(100);
+    }
+}
+.p-top__blog__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: rem(25) rem(0);
+    margin-bottom: rem(50);
+    @include mq(md) {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: rem(25) rem(33);
+        margin-bottom: rem(80);
+    }
+}
+.p-top__blog__card__ttl {
+    text-align: left;
+}
+.p-top__blog__btn {
+    text-align: center;
+    @include mq(md) {
+        text-align: left;
+    }
+}

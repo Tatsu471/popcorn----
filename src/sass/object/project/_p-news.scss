@@ -1,0 +1,47 @@
+@use "global" as *;
+
+.p-news {
+  padding: rem(52) 0;
+
+  @include mq("md") {
+    padding: rem(120) 0;
+  }
+}
+
+.p-news__ttl-box {
+  text-align: center;
+
+  @include mq("md") {
+    -moz-text-align-last: left;
+         text-align-last: left;
+  }
+}
+
+.p-news__cards {
+  margin-top: rem(30);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+  @include mq("md") {
+    margin-top: rem(80);
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.p-news__desc {
+  margin-top: rem(26);
+
+  @include mq("md") {
+    margin-top: rem(80);
+  }
+}
+
+.p-news__button {
+  margin-top: rem(30);
+  text-align: center;
+
+  @include mq("md") {
+    margin-top: rem(80);
+    text-align: right;
+  }
+}

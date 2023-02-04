@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>popcorn</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="icon" href="" />
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,700&display=swap"
+    rel="stylesheet" />
+  <!-- css -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script defer src="./js/script.js"></script>
+</head>
+<header class="l-header p-header">
+  <div class="p-header__inner l-header__inner">
+    <div class="p-header__logo">
+      <h1><img src="./images/logo.svg" alt="logo" /></h1>
+    </div>
+    <nav class="p-header__nav">
+      <ul class="p-header__nav-lists">
+        <li class="p-header__nav-list">
+          <a href="#blog" class="p-header__nav-link">blog</a>
+        </li>
+        <li class="p-header__nav-list">
+          <a href="#products" class="p-header__nav-link">products</a>
+        </li>
+        <li class="p-header__nav-list">
+          <a href="#news" class="p-header__nav-link">news</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<body>
+  <section class="p-mv l-mv">
+    <div class="p-mv__content">
+      <p class="p-mv__lead">The largest community of photo enthusiasts</p>
+      <div class="c-button">
+        <a href="#" class="c-button__inner">more</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-top__blog p-top__blog" id="blog">
+    <div class="l-top__blog__inner p-top__blog__inner l-inner">
+      <div class="p-top__blog__ttl_box c-section__ttl-box">
+        <h2 class="p-top__blog__title c-section__ttl">blog</h2>
+      </div>
+      <div class="p-top__blog__desc c-section__desc">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore
+        </p>
+      </div>
+      <div class="p-top__blog__cards">
+        <div class="p-top__blog__card c-card">
+          <!-- カードのコンポーネント -->
+          <div class="p-top__blog__card_thumb c-card__thumb">
+            <img src="./images/dummy.jpg" alt="" />
+          </div>
+          <!-- /c-card__thumb -->
+          <div class="p-top__blog__card__box c-card__box">
+            <div class="p-top__blog__card__ttl c-card__ttl">
+              Lorem ipsum dolor
+            </div>
+            <!-- /c-card__ttl -->
+            <div class="p-top__blog__card__txt c-card__txt">
+              Amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore.
+            </div>
+            <!-- /c-card__txt -->
+          </div>
+          <!-- /c-card__box -->
+        </div>
+        <!-- /c-card -->
+        <div class="p-top__blog__card c-card">
+          <!-- カードのコンポーネント -->
+          <div class="p-top__blog__card_thumb c-card__thumb">
+            <img src="./images/dummy.jpg" alt="" />
+          </div>
+          <!-- /c-card__thumb -->
+          <div class="p-top__blog__card__box c-card__box">
+            <div class="p-top__blog__card__ttl c-card__ttl">
+              Lorem ipsum dolor
+            </div>
+            <!-- /c-card__ttl -->
+            <div class="p-top__blog__card__txt c-card__txt">
+              Amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore.
+            </div>
+            <!-- /c-card__txt -->
+          </div>
+          <!-- /c-card__box -->
+        </div>
+        <!-- /c-card -->
+        <div class="p-top__blog__card c-card">
+          <!-- カードのコンポーネント -->
+          <div class="p-top__blog__card_thumb c-card__thumb">
+            <img src="./images/dummy.jpg" alt="" />
+          </div>
+          <!-- /c-card__thumb -->
+          <div class="p-top__blog__card__box c-card__box">
+            <div class="p-top__blog__card__ttl c-card__ttl">
+              Lorem ipsum dolor
+            </div>
+            <!-- /c-card__ttl -->
+            <div class="p-top__blog__card__txt c-card__txt">
+              Amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore.
+            </div>
+            <!-- /c-card__txt -->
+          </div>
+          <!-- /c-card__box -->
+        </div>
+        <!-- /c-card -->
+      </div>
+      <div class="p-top__blog__btn c-button">
+        <a href="#" class="c-button__inner">more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- products -->
+  <section class="p-products l-products" id="products">
+    <div class="l-inner">
+      <div class="p-products__wrap">
+        <div class="p-products__col">
+          <div class="p-products__ttl c-section__ttl-box">
+            <h2 class="c-section__ttl">products</h2>
+          </div>
+          <!-- 色反転ボタン -->
+          <div class="p-products__button c-button">
+            <a href="#" class="c-button__inner c-button__inner--reversal">more</a>
+          </div>
+        </div>
+
+        <div class="p-products__cards p-cards">
+          <!-- カードのコンポーネント -->
+          <div class="c-card">
+            <div class="c-card__thumb">
+              <img src="./images/dummy.jpg" alt="" />
+            </div>
+            <!-- /c-card__thumb -->
+            <div class="c-card__box">
+              <div class="c-card__ttl">Lorem ipsum dolor</div>
+              <!-- /c-card__ttl -->
+              <div class="c-card__txt">
+                Amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore.
+              </div>
+              <!-- /c-card__txt -->
+            </div>
+            <!-- /c-card__box -->
+          </div>
+          <div class="c-card">
+            <div class="c-card__thumb">
+              <img src="./images/dummy.jpg" alt="" />
+            </div>
+            <!-- /c-card__thumb -->
+            <div class="c-card__box">
+              <div class="c-card__ttl">Lorem ipsum dolor</div>
+              <!-- /c-card__ttl -->
+              <div class="c-card__txt">
+                Amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore.
+              </div>
+              <!-- /c-card__txt -->
+            </div>
+            <!-- /c-card__box -->
+          </div>
+          <div class="c-card">
+            <div class="c-card__thumb">
+              <img src="./images/dummy.jpg" alt="" />
+            </div>
+            <!-- /c-card__thumb -->
+            <div class="c-card__box">
+              <div class="c-card__ttl">Lorem ipsum dolor</div>
+              <!-- /c-card__ttl -->
+              <div class="c-card__txt">
+                Amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore.
+              </div>
+              <!-- /c-card__txt -->
+            </div>
+            <!-- /c-card__box -->
+          </div>
+          <div class="c-card">
+            <div class="c-card__thumb">
+              <img src="./images/dummy.jpg" alt="" />
+            </div>
+            <!-- /c-card__thumb -->
+            <div class="c-card__box">
+              <div class="c-card__ttl">Lorem ipsum dolor</div>
+              <!-- /c-card__ttl -->
+              <div class="c-card__txt">
+                Amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore.
+              </div>
+              <!-- /c-card__txt -->
+            </div>
+            <!-- /c-card__box -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-news l-news" id="news">
+    <div class="l-inner">
+      <div class="p-news__ttl-box c-section__ttl-box">
+        <h2 class="c-section__ttl">NEWS</h2>
+      </div>
+      <div class="p-news__cards p-cards">
+        <div class="p-cards__item c-card">
+          <div class="c-card__thumb">
+            <img src="./images/dummy.jpg" alt="" />
+          </div>
+          <!-- /c-card__thumb -->
+          <div class="c-card__box">
+            <div class="c-card__ttl">Lorem ipsum dolor</div>
+            <!-- /c-card__ttl -->
+            <div class="c-card__txt">
+              Amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore.
+            </div>
+            <!-- /c-card__txt -->
+          </div>
+          <!-- /c-card__box -->
+        </div>
+        <!-- /c-card -->
+        <div class="p-cards__item c-card">
+          <div class="c-card__thumb">
+            <img src="./images/dummy.jpg" alt="" />
+          </div>
+          <!-- /c-card__thumb -->
+          <div class="c-card__box">
+            <div class="c-card__ttl">Lorem ipsum dolor</div>
+            <!-- /c-card__ttl -->
+            <div class="c-card__txt">
+              Amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore.
+            </div>
+            <!-- /c-card__txt -->
+          </div>
+          <!-- /c-card__box -->
+        </div>
+        <!-- /c-card -->
+        <div class="p-cards__item c-card">
+          <div class="c-card__thumb">
+            <img src="./images/dummy.jpg" alt="" />
+          </div>
+          <!-- /c-card__thumb -->
+          <div class="c-card__box">
+            <div class="c-card__ttl">Lorem ipsum dolor</div>
+            <!-- /c-card__ttl -->
+            <div class="c-card__txt">
+              Amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore.
+            </div>
+            <!-- /c-card__txt -->
+          </div>
+          <!-- /c-card__box -->
+        </div>
+        <!-- /c-card -->
+        <div class="p-cards__item c-card">
+          <div class="c-card__thumb">
+            <img src="./images/dummy.jpg" alt="" />
+          </div>
+          <!-- /c-card__thumb -->
+          <div class="c-card__box">
+            <div class="c-card__ttl">Lorem ipsum dolor</div>
+            <!-- /c-card__ttl -->
+            <div class="c-card__txt">
+              Amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore.
+            </div>
+            <!-- /c-card__txt -->
+          </div>
+          <!-- /c-card__box -->
+        </div>
+        <!-- /c-card -->
+      </div>
+      <!-- /p-news__cards -->
+      <div class="p-news__desc c-section__desc">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore
+        </p>
+      </div>
+      <!-- 色反転ボタン -->
+      <div class="p-news__button c-button">
+        <a href="#" class="c-button__inner c-button__inner">contact</a>
+      </div>
+    </div>
+    <!-- /l-inner -->
+  </section>
+  <!-- /p-news -->
+
+  <div class="p-footer l-footer">
+    <div class="l-inner">
+      <div class="p-footer__logo">
+        <img src="./images/logo.svg" alt="フッターロゴ" />
+      </div>
+      <!-- /p-footer__logo -->
+      <nav class="p-footer__nav">
+        <ul class="p-footer__nav-lists">
+          <li class="p-footer__nav-list">
+            <a href="#blog" class="p-footer__nav-link">blog</a>
+          </li>
+          <li class="p-footer__nav-list">
+            <a href="#products" class="p-footer__nav-link">products</a>
+          </li>
+          <li class="p-footer__nav-list">
+            <a href="#news" class="p-footer__nav-link">news</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="p-footer__copyright">© cocomate</div>
+      <!-- /p-footer__copyright -->
+    </div>
+    <!-- /l-inner -->
+  </div>
+  <!-- /p-footer -->
+
+  <!-- <div class="l-inner">
+    <!-- セクションタイトルのコンポーネント
+    <div class="c-section__ttl-box">
+      <h2 class="c-section__ttl">blog</h2>
+    </div>
+    <!-- セクション説明のコンポーネント 
+    
+    <div class="c-section__desc">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore
+      </p>
+    </div>
+    <!-- セクション説明のコンポーネント
+    <div class="c-section__desc c-section__desc--right">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore
+      </p>
+    </div>
+
+    <!-- ボタン 
+    <div class="c-button">
+      <a href="#" class="c-button__inner">more</a>
+    </div>
+
+    <!-- 色反転ボタン 
+    <div class="c-button">
+      <a href="#" class="c-button__inner c-button__inner--reversal">contact</a>
+    </div>
+
+    <!-- カードのコンポーネント 
+    <div class="c-card">
+      <div class="c-card__thumb">
+        <img src="./images/dummy.jpg" alt="" />
+      </div>
+      <!-- /c-card__thumb 
+      <div class="c-card__box">
+        <div class="c-card__ttl">Lorem ipsum dolor</div>
+        <!-- /c-card__ttl 
+        <div class="c-card__txt">
+          Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore.
+        </div>
+        <!-- /c-card__txt 
+      </div>
+      <!-- /c-card__box 
+    </div>
+    <!-- /c-card 
+  </div>
+-->
+</body>
+
+</html>

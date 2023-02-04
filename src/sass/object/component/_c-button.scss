@@ -1,0 +1,18 @@
+@use "global" as *;
+
+.c-button__inner {
+    display: inline-block;
+    min-width: rem(190);
+    padding: rem(15) rem(60);
+    text-align: center;
+    text-transform: capitalize;
+    color: $white;
+    background-color: $orange;
+    border: 1px solid $orange;
+    border-radius: rem(6);
+}
+
+.c-button__inner--reversal {
+    color: $orange;
+    background-color: $white;
+}
